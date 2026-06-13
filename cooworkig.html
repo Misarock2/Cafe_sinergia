@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Café Sinergia</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="shortcut icon" href="imagenes/solologo-removebg-preview.png" type="image/x-icon">
+</head>
+
+<body>
+   <header>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand logo align-items-center" href="index.html">
+                <img class="w-100 img-fluid me-2" src="./imagenes/LogoSinergia.png" alt="Bootstrap" 
+                width="20" height="20">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="productos.html">Producto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="cooworkig.html">Coworking</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="historia.html">Nuestra Historia</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contacto.html">Contacto</a>
+              </li>
+            </ul>
+            <button type="button" onclick="enviarAWhatsApp()" class="btn btn-icono d-flex"></button>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!------ banner de coworking ------>
+
+    <section>
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-12 col-md-6 his banner">
+                     <span class="tag">Santuario Productivo</span>
+
+                    <h1 class="fw-bold">Tu oficina ideal entre el aroma del mejor café.</h1>
+                    <p>
+                        Diseñamos un espacio donde la sostenibilidad y la eficiencia se encuentran.
+                        Desde puestos flexibles hasta planes corporativos a medida.                    
+                    </p>
+                    <button onclick="document.getElementById('planes').scrollIntoView({ behavior: 'smooth' })">Ver Planes ↓</button>
+                </div>
+                <div class="col-10 col-md-6 d-flex imghistoria">
+                    <img src="imagenes/unnamed.png" alt="" class="img-fluid object-fit-cover w-100 h-100">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!------ planes o membresía ------>
+<section class="seccion-planes" id="planes">
+    <div class="container">
+        <div class="titulo-planes">
+            <h2>Nuestros Planes de Membresía</h2>
+            <p>Flexibilidad total para mentes brillantes.</p>
+        </div>
+        <div class="row justify-content-center g-4">
+            <div class="col-md-8">
+                <div class="row g-4">
+                    <div class="col col-12 col-md-12 col-lg-6">
+                          <div class="plan-card p-4">
+                                <h3>Pase por Horas Coworking</h3>
+                                <p>
+                                    Qué Incluye:
+                                    <br>
+                                    Acceso flexible al coworking por horas.
+                                    <br>
+                                    Internet rápido y espacio de trabajo cómodo.
+                                    <br>
+                                    Ideal para reuniones, estudio o trabajo ocasional.
+                                    <br>
+                                    Acceso a zonas comunes y café.
+                                    <br>
+                                    Forma de pago: Pago por tiempo utilizado.
+                                </p>
+                                <div class="precio">
+                                    $15.000Cop <span>/ hora</span>
+                                </div>
+                          </div>
+                    </div>
+                     <div class="col col-12 col-md-12 col-lg-6">
+                        <div class="plan-card p-4">
+                            <h3>Pase 24/7 Coworking</h3>
+                            <p>
+                                Qué Incluye:
+                                <br>
+                                Acceso ilimitado por 24 horas.
+                                <br>
+                                Espacios cómodos y conexión de alta velocidad.
+                                <br>
+                                Ideal para jornadas intensivas de trabajo o estudio.
+                                <br>
+                                Acceso a zonas de descanso y café.
+                                <br>
+                                Forma de pago: Pago único por día.
+                            </p>
+                            <div class="precio">
+                                $55.000Cop <span>/ día</span>
+                            </div>         
+                        </div>
+                    </div>
+                    <div class="col col-12 col-md-12 col-lg-12">
+                        <div class="plan-card p-4">
+                            <h3> Membresía colaborativa</h3>
+                            <p>
+                                Qué Incluye:
+                                <br>
+                                Acceso mensual al coworking.
+                                <br>
+                                Participación como mentor o speaker.
+                                <br>
+                                Descuentos por compartir conocimiento.
+                                <br>
+                                Perfil profesional en la comunidad.
+                                <br>
+                                Forma de pago: Dinero + aporte de conocimiento.
+                            </p>
+                            <div class="precio">
+                               Cotización<span>Personalizada</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col col-12 col-lg-4 col-md-12">
+                <div class="plan-premium p-4">
+                    <span class="badge">Más Popular</span>
+                    <h3>Membresía Mensual Coworking</h3>
+                    <p>
+                        Qué Incluye:
+                        <br>
+                        ✔Acceso ilimitado al coworking durante un mes.
+                        <br>
+                        ✔Internet de alta velocidad y espacios cómodos.
+                        <br>
+                        ✔Acceso a salas de trabajo y zonas de descanso.
+                        <br>
+                        ✔Ambiente ideal para freelancers y equipos creativos.
+                        <br>
+                        ✔Forma de pago: Suscripción mensual.
+                    </p>
+                
+                <div>
+                <div class="precio-premium">
+                    $650.000Cop <span>/ mes</span>
+                </div>
+                <button class="btn-plan" onclick="enviarAWhatsApp()">
+                    Reservar Cupo
+                </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <div class="dashboard-container">
+
+        <header class="header">
+            <div class="header-left">
+                <h1>Disponibilidad en Tiempo Real</h1>
+                <p>Encuentra tu lugar ideal ahora mismo.</p>
+            </div>
+            <div class="legend">
+                <div class="legend-item"><span class="dot libre"></span> Libre</div>
+                <div class="legend-item"><span class="dot ocupado"></span> Ocupado</div>
+                <div class="legend-item"><span class="dot mantenimiento"></span> Mantenimiento</div>
+            </div>
+        </header>
+
+        <main class="main-content">
+
+            <section class="map-card">
+                <div class="map-grid">
+
+                    <div class="room sala-amazonas libre">
+                        <span class="material-symbols-outlined"></span>
+                        <span class="room-title">SALA AMAZONAS (LIBRE)</span>
+                    </div>
+
+                    <div class="room sala-andes ocupado">
+                        <span class="material-symbols-outlined"></span>
+                        <span class="room-title">SALA ANDES (OCUPADA)</span>
+                    </div>
+
+                    <div class="room recepcion mantenimiento">
+                        <span class="room-title grey-text">RECEPCIÓN</span>
+                    </div>
+
+                    <div class="desk-group layout-left">
+                        <div class="desk libre"></div>
+                        <div class="desk libre"></div>
+                        <div class="desk ocupado"></div>
+                    </div>
+
+                    <div class="desk-group layout-center">
+                        <div class="desk libre"></div>
+                        <div class="desk ocupado"></div>
+                        <div class="desk libre"></div>
+                        <div class="desk libre"></div>
+                        <div class="desk libre"></div>
+                        <div class="desk libre"></div>
+                        <div class="desk libre"></div>
+                        <div class="desk ocupado"></div>
+                    </div>
+
+                    <div class="cabins-group">
+                        <div class="cabin ocupado"></div>
+                        <div class="cabin libre"></div>
+                        <div class="cabin libre"></div>
+                        <div class="cabin libre"></div>
+                    </div>
+
+                </div>
+            </section>
+
+            <aside class="sidebar">
+                <div class="status-card">
+                    <h3>Estado actual</h3>
+                    <div class="status-item">
+                        <span>Escritorios Flexibles</span>
+                        <span class="qty green-text">12 Libres</span>
+                    </div>
+                    <div class="status-item">
+                        <span>Salas de Reunión</span>
+                        <span class="qty red-text">1/2 Ocupada</span>
+                    </div>
+                    <div class="status-item">
+                        <span>Cabinas Telefónicas</span>
+                        <span class="qty green-text">2 Libres</span>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <p class="quote">"Un entorno de trabajo increíble con café que realmente te mantiene despierto."</p>
+                    <p class="author">— Julian R., <span class="role">Developer</span></p>
+                </div>
+            </aside>
+
+        </main>
+    </div>
+
+
+    <section class="seccion-registro">
+        <div class="registro-container">
+
+            <div class="registro-info">
+                <h2>Inicia tu Membresía</h2>
+                <p class="subt-registro">Completa los datos y un anfitrión te contactará para finalizar tu reserva y
+                    coordinar el pago.</p>
+
+                <div class="beneficio-item">
+                    <div class="beneficio-icono">🛡️</div>
+                    <div>
+                        <h4>Proceso Seguro</h4>
+                        <p>Tus datos están protegidos bajo nuestra política de privacidad.</p>
+                    </div>
+                </div>
+
+                <div class="beneficio-item">
+                    <div class="beneficio-icono">🤝</div>
+                    <div>
+                        <h4>Mentoria Express</h4>
+                        <p>Nuestros miembros acceden a 15 min de mentoría semanal.</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <form class="registro-form" id="formularioReserva">
+    <div class="form-grid">
+        <div class="form-group">
+            <label>Nombre Completo</label>
+            <input type="text" name="nombre" placeholder="Ej: María García" required>
+        </div>
+
+        <div class="form-group">
+            <label>Documento de Identidad</label>
+            <input type="text" name="documento" placeholder="CC / CE / Pasaporte" required>
+        </div>
+
+        <div class="form-group">
+            <label>Teléfono</label>
+            <input type="tel" name="telefono" placeholder="+57 300 000 0000" required>
+        </div>
+
+        <div class="form-group">
+            <label>Habilidades / Profesión</label>
+            <input type="text" name="profesion" placeholder="Diseño, Dev, Mkt...">
+        </div>
+
+        <div class="form-group">
+            <label>Tema de Interés para Mentoría</label>
+            <select name="mentoria">
+                <option>Estrategia de Negocio</option>
+                <option>Desarrollo Web / Técnico</option>
+                <option>Marketing y Ventas</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label>¿Posee Membresía?</label>
+
+            <div class="radio-group">
+                <label>
+                    <input type="radio" name="membresia" value="si">
+                    Sí, pagar con puntos
+                </label>
+
+                <label>
+                    <input type="radio" name="membresia" value="no" checked>
+                    No
+                </label>
+            </div>
+        </div>
+    </div>
+
+    <button type="submit" class="btn-whatsapp">
+        <span class="icon-ws">💬</span> Reservar por WhatsApp
+    </button>
+
+    <p class="form-nota">
+        Recibirás un mensaje automático para confirmar disponibilidad.
+    </p>
+</form>     
+
+        </div>
+    </section>
+ 
+   <footer class="main-footer">
+    <div class="footer-container container">
+        <div class="row">  
+
+            <div class="col-lg-4 footer-col">
+                <div class="d-flex align-items-center mb-2">
+                <img src="imagenes/solologo-removebg-preview.png" alt="" class="footlogo m2" >
+                <h3 class="m-0">Café Sinergia</h3>
+                </div>
+                <p>Donde cada taza de café impulsa una nueva idea sostenible.</p>
+            </div>
+            
+        
+            <div class="col-lg-4 footer-col">
+                <h4>REDES SOCIALES</h4>
+                <div class="d-flex">
+                    <a href="https://m.facebook.com/" target="_blank" rel="noopener noreferrer"><i class="bi bi-facebook m-4 fs-3"></i></a>
+                    <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer"><i class="bi bi-instagram m-4 fs-3"></i></a>
+                </div>
+            </div>
+
+            
+            <div class="col-lg-4 footer-col">
+
+                <h4>UBICACIÓN & HORARIOS</h4>               
+                <p>Horarios de Atención: <br> Lunes a Viernes: 8:00 AM - 7:00 PM <br> Sabados: 9:00 AM - 6:00 PM</p>
+                <p>Dirección: Calle 14 #6N-49, Barrio Granada</p>
+                
+                <p><a href="https://maps.app.goo.gl/3j8rbwux1upGRh9n6" class="map-link" target="_blank" rel="noopener noreferrer">Ver en Google Maps</a></p>
+            </div>
+               
+    
+            <div class="col-lg-12 footer-bottom text-center">
+                <p>&copy; 2026 Café Sinergia. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+<script src="js/script.js" charset="utf-8"></script>
+<script src="js/control.js"></script>
+</body>

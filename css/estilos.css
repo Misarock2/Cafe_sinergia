@@ -1,0 +1,1276 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #f8f9fa6e;
+}
+
+.logo {
+    width: 13%;
+}
+.logo span {
+    font-size: 20px;
+
+}
+
+.nav-link {
+  font-family: "DM Serif Display", serif;
+  font-size: 20px;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.nav-link:hover {
+ color:#C76D4E;
+ text-decoration: underline;
+}
+.btn-icono {
+    display: inline-block;
+    background-image: url(../imagenes/whatsapp-48.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 50px;
+    height: 50px;
+}
+
+.carousel-item {
+    height: 400px;
+    opacity: 100%;
+}
+.carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.font-carru{
+    text-align: left;
+    align-items: center;
+}
+
+.font-carru h2{
+    font-size: 50px;
+     font-family: "DM Serif Display", serif;
+     font-weight: 400;
+     font-style: normal;
+     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
+}
+
+.font-carru p{
+  font-size: 19px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: italic;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 1);
+}
+
+/*servicios*/
+
+.secci_servis {
+    padding: 40px;
+}
+
+.secci_servis div div h2 {
+    text-align: center;
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+hr {
+    margin: 6px auto 30px auto;
+    border: 2px solid;
+    border-radius:50px;
+    color: #032d20;
+}
+
+.card_img {
+    background: #d5ecbf;
+    border-radius: 50%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    width: 70px;
+    height: 70px;
+    display: flex;
+}
+
+.card_img img {
+    width: 40px;
+}
+
+.card_servis {
+    height: 250px;
+    text-align: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 -5px 1px #C76D4E;
+}
+
+
+.card-text {
+  font-size: 15px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+}
+
+/*caracteristicas*/
+
+.secci-caract {
+    padding: 40px;
+    background: #F6F3F2;
+}
+
+.card_caract {
+    height: 200px;
+    margin: 0 0 20px 0;
+    border-radius: 10px;
+}
+
+.card-body h5 {
+    padding: 20px 0 30px 0;
+}
+
+.car1 {
+    background: #2F352A;
+    color: white;
+    align-items: center;
+}
+
+.car2 {
+    background: #8A9A7B;
+
+}
+
+
+.car4 {
+    background: #D9CFB0;
+}
+
+/*reserva*/
+
+.secci-reserva {
+    padding: 0 0 40px 0;
+}
+
+.card-reserva {
+    border-radius: 10px;
+    background: #2F352A;
+    color: white;
+    margin: 20px auto;
+    box-shadow: 0 -5px 1px #C76D4E;
+}
+
+.card-reserva div h5 {
+    font-size: 30px;
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.card-reserva div p {
+    font-size: 18px;
+}
+
+.btn-suc1 {
+    background: #d5ecbf;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+}
+
+.btn-suc2 {
+    background: #526442;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+/*sugerencias*/
+
+.secci-sugerencia {
+    padding: 0 0 40px 0;
+}
+
+.suge-form {
+    margin: 0 auto;
+    background: white;
+    padding: 50px;
+    border-radius: 20px;
+}
+
+.suge-form label {
+    margin: 0 0 30px 0;
+}
+.form-label{
+  font-size: 13px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+}
+.sugere-titu {
+    display: flex;
+    align-items: center;
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.sugere-titu h5 {
+    font-size: 25px;
+    margin: 20px;
+}
+
+.sugere-titu img {
+    width: 30px;
+}
+
+.tex-sugerencia {
+    max-height: 500%;
+    height: 200%;
+    font-size: 13px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+}
+
+/*coworking*/
+
+.hero{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 40px;
+    min-height: 80vh;
+    padding: 80px;
+    max-width: 1400px;
+    margin: auto;
+     
+}
+
+.tag{
+    display: inline-block;
+    background: #7A8466;
+    color: #ffffff;
+    padding: 10px 18px;
+    border-radius: 999px;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.banner h1{
+    font-size: 42px;
+    line-height: 1.1;
+    color: #7A8466;
+    margin-bottom: 25px;
+    font-weight: 800;
+    font-family: "DM Serif Display", serif;
+    font-style: normal;
+    
+}
+
+.banner p{
+    font-size: 20px;
+    line-height: 2.0;
+    color: #475569;
+    margin-bottom: 40px;
+}
+
+.banner button{
+    background: #7A8466;
+    color: white;
+    border: none;
+    padding: 18px 30px;
+    border-radius: 16px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s ease;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+
+.banner button:hover{
+    background: #7A8466;
+    transform: translateY(-3px);
+}
+
+.imagen1{
+    overflow: hidden;
+    border-radius: 40px;
+    box-shadow: 0 25px 50px rgba(0,0,0,0.18);
+    width: 100%;
+}
+
+.imagen1 img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    display: block;
+    
+}
+
+@media(max-width: 900px){
+
+    .hero{
+        grid-template-columns: 1fr;
+    }
+
+
+    .banner h1{
+        font-size: 15px;
+    }
+
+
+
+    .hero{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+   .imagen1{
+      background: #032d20;
+        width: 100%;
+        display: flex;
+        margin: 0;
+        padding: 0;
+   }
+
+    .imagen1 img{
+        margin: 0;
+    }
+}
+
+.btn-icono {
+    display: inline-block;
+    background-image: url(../imagenes/whatsapp-48.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 50px;
+    height: 50px;
+
+}
+
+/*  SECCIÓN PLANES  */
+
+.seccion-planes {
+    padding: 80px 40px;
+    background: #f7f6f4;
+    width: 100%;
+}
+
+.titulo-planes {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.titulo-planes h2 {
+    font-size: 42px;
+    color: #2F352A;
+    margin-bottom: 10px;
+    font-weight: 800;
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.titulo-planes p {
+    color: #5b6570;
+    font-size: 18px;
+}
+
+
+.plan-card {
+    background: #ffffff;
+    border: 1px solid #C76D4E;
+    padding: 30px;
+    margin-bottom: 20px;
+    border-radius: 24px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.199);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 350px; /* Asegura un tamaño base sin colapsar */
+    transition: transform 0.3s ease;
+}
+
+.plan-card:hover {
+    transform: translateY(-5px);
+}
+
+.plan-card h3 {
+    font-size: 22px;
+    color: #2F352A;
+    margin-bottom: 8px;
+    font-weight: 700;
+    font-family: "DM Serif Display", serif;
+    font-style: normal;
+}
+
+.plan-card p {
+    color: #64748b;
+    font-size: 15px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+/* Ajustes de precios */
+.precio { 
+    font-size: 30px;
+    font-weight: 800;
+    color: #2F352A;
+    display: flex;
+    align-items: flex-end;
+    gap: 4px;
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.precio p{
+    font-size: 30px;
+    color: #2F352A;
+}
+
+.precio span {
+    font-size: 16px;
+    font-weight: 400;
+    color: #64748b;
+    margin-bottom: 5px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+/* TARJETA DESTACADA  */
+.plan-premium{
+    padding: 0 5px 0 10px;
+    margin: 0 0 0 10px;
+    background: #2F352A;
+    color: white;
+    border-radius: 28px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    box-shadow: 0 20px 40px rgba(1, 45, 29, 0.12);
+    
+}
+
+.badge {
+    background: #8A9A7B;
+    color:#2F352A;
+    padding: 6px 14px;
+    border-radius: 999px;
+    font-weight: 700;
+    font-size: 13px;
+    align-self: flex-start;
+    margin-bottom: 20px;
+}
+
+.plan-premium h3 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: white;
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.plan-premium p{
+    color: #b0b8c2;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+}
+
+.precio-premium {
+    font-size: 30px;
+    font-weight: 800;
+    display: flex;
+    align-items: flex-end;
+    gap: 4px;
+    margin-bottom: 25px;
+    font-family: "DM Serif Display", serif;
+    font-style: normal;
+}
+
+.precio-premium span {
+    font-size: 18px;
+    font-weight: 400;
+    color: #a0f4c8;
+    margin-bottom: 10px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.btn-plan {
+    width: 100%;
+    padding: 16px;
+    border: none;
+    border-radius: 14px;
+    background: white;
+    color:  #2F352A;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    transition: background 0.2s, transform 0.2s;
+}
+
+.btn-plan:hover {
+    background: #8A9A7B;
+    transform: scale(1.01);
+}
+
+
+@media(max-width: 480px){
+    .precio-premium{
+         font-size: 1.8em;
+         line-height: 0.7;
+    }
+
+    .precio{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        font-size: 1.8em;
+        line-height: 0.7;
+    }
+
+}
+
+/* MAPA Y ZONA DE DISPONBIBILIDAD  */
+.dashboard-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 20px;   
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 25px;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.header-left h1 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #032d20;
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.header-left p {
+    color: #7f8c8d;
+    font-size: 0.95rem;
+}
+
+.legend {
+    display: flex;
+    background-color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    gap: 20px;
+}
+
+.legend-item {
+    display: flex;
+    align-items: center;
+    font-size: 0.85rem;
+    font-weight: 500;
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
+.dot.libre { background-color: #8A9A7B}
+.dot.ocupado { background-color: #C76D4E }
+.dot.mantenimiento { background-color: #d1d1d0}
+
+.main-content {
+    display: grid;
+    grid-template-columns: 1.8fr 1fr;
+    gap: 30px;
+    justify-content: center;
+}
+
+@media (max-width: 960px) {
+    .main-content {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* PLANO / MAPA */
+.map-card {
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 30px;
+    border: 1px solid #e2e8f0;
+}
+
+.map-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.room {
+    border-radius: 12px;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;     
+    text-align: center;
+    padding: 15px;
+    font-weight: 600;
+    font-size: 0.75rem;
+    box-sizing: border-box;
+}
+
+.room .material-symbols-outlined {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.room.libre {
+    background-color: #e8f5e9;
+    border: 2px solid #2F352A;
+    color:#2F352A;
+}
+
+.room.ocupado {
+    background-color: #fbe9e7;
+    border: 2px solid #C76D4E;
+    color:#C76D4E;
+}
+
+.room.mantenimiento {
+    background-color: #e5e5e5;
+    border: none;
+    color:#5c5c59;
+}
+
+.desk-group {
+    display: grid;
+    gap: 10px;
+    align-content: start;
+}
+
+.layout-left {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.layout-center {
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.desk {
+    height: 75px;
+    border-radius: 6px;
+}
+
+.desk.libre { background-color: #8A9A7B}
+.desk.ocupado { background-color: #C76D4E }
+
+
+.cabins-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.cabin {
+    height: 38px;
+    border-radius: 6px;
+}
+.cabin.libre { background-color: #8A9A7B }
+.cabin.ocupado { background-color:#C76D4E }
+
+/* SIDEBAR */
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.status-card {
+    background-color: #ffffff;
+    border-radius: 16px;
+    padding: 25px;
+    border: 1px solid #e2e8f0;
+}
+
+.status-card h3 {
+    font-size: 0.95rem;
+    color: #57756c;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+.status-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 0;
+    border-bottom: 1px solid #f1f5f9;
+    font-size: 0.95rem;
+    font-weight: 500;
+}
+
+.status-item:last-child {
+    border-bottom: none;
+}
+
+.qty { font-weight: 600; }
+.green-text { color:#8A9A7B}
+.red-text { color: #C76D4E }
+
+.testimonial-card {
+    background-color: #2F352A;
+    color: #ffffff;
+    border-radius: 16px;
+    padding: 25px;
+}
+
+.testimonial-card .quote {
+    font-style: italic;
+    font-size: 0.95rem;
+    line-height: 1.5;
+    color: #a3b8b0;
+    margin-bottom: 15px;
+}
+
+.testimonial-card .author {
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+
+.testimonial-card .role {
+    color: #adc29a;
+}
+
+
+/* SECCIÓN INICIA TU MEMBRESÍA */
+
+.seccion-registro {
+    padding: 80px 40px;
+    background-color: #f7f6f4;
+    width: 100%;
+}
+
+.registro-container {
+    display: grid;
+    grid-template-columns: 1.1fr 1.3fr;
+    gap: 60px;
+    max-width: 1200px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.registro-info h2 {
+    font-size: 38px;
+    color: #2F352A;
+    font-weight: 800;
+    margin-bottom: 15px;
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.subt-registro {
+    font-size: 16px;
+    color: #4b5563;
+    line-height: 1.5;
+    margin-bottom: 40px;
+}
+
+.beneficio-item {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 25px;
+    align-items: flex-start;
+}
+
+.beneficio-icono {
+    background: #8A9A7B;
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+}
+
+.beneficio-item h4 {
+    color: #2F352A;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 4px;
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.beneficio-item p {
+    color: #64748b;
+    font-size: 14px;
+}
+
+/* Este es el la sesion del formulario */
+.registro-form-box {
+    background: white;
+    padding: 40px;
+    border-radius: 28px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.185);
+}
+
+.form-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Dos columnas internas */
+    gap: 20px 25px;
+    margin-bottom: 25px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.form-group label {
+    font-size: 14px;
+    font-weight: 600;
+    color: #2F352A;
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.form-group input, 
+.form-group select {
+    padding: 12px 16px;
+    border: 1px solid #cbd5e1;
+    border-radius: 10px;
+    font-size: 14px;
+    color: #334155;
+    background-color: #ffffff;
+    outline: none;
+    transition: border-color 0.2s;
+}
+
+.form-group input:focus, 
+.form-group select:focus {
+    border-color: #2F352A
+}
+
+/* Opciones Radio */
+.radio-group {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    height: 100%; /* Lo alinea verticalmente con la etiqueta */
+}
+
+.radio-group label {
+    font-weight: 500;
+    font-size: 14px;
+    color: #334155;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    cursor: pointer;
+}
+
+/* Botón Verde WhatsApp */
+.btn-whatsapp {
+    width: 100%;
+    background: #2F352A; /* Verde institucional oscuro */
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 12px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    transition: background 0.2s;
+}
+
+.btn-whatsapp:hover {
+    background: #6c7a60;
+}
+
+.form-nota {
+    text-align: center;
+    font-size: 12px;
+    color: #64748b;
+    margin-top: 15px;
+}
+
+/*footer*/
+
+.main-footer {
+    background-color: #f8f6f4;
+    padding: 60px 40px 20px 40px;
+    border-top: 1px solid #e2e8f0;
+}
+
+.footer-container {
+    gap: 50px;
+    margin: 0 auto 40px auto;
+}
+
+.footer-col h3 {
+    font-size: 20px;
+    color: #2F352A;
+    margin-bottom: 15px;
+    font-family: "DM Serif Display", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.footer-col h4 {
+    font-size: 14px;
+    color: #475569;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-family: "DM Serif Display", serif;
+    font-style: normal;
+}
+
+.footer-col p {
+    color: #475569;
+    font-size: 14px;
+    line-height: 1.6;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+  font-weight: 500;
+}
+
+
+.map-link {
+    color: #475569;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footlogo{
+    width: 100px;
+}
+
+.footer-bottom {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 20px;
+    border-top: 1px solid #e2e8f0;
+    text-align: center;
+}
+
+.footer-bottom p {
+    font-size: 13px;
+    color: #94a3b8;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+}
+
+@media (max-width: 960px) {
+    .registro-container {
+        grid-template-columns: 1fr; /* Se apilan en móvil/tablet */
+        gap: 40px;
+    }
+    .footer-container {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+}
+
+@media (max-width: 600px) {
+    .form-grid {
+        grid-template-columns: 1fr; /* Formulario a una columna en pantallas muy chicas */
+    }
+}
+
+/*Nuestra historia*/
+
+.his{
+    padding: 0 40px 0 0;
+}
+
+.his p{
+    text-align: justify;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+}
+
+.mvi h2{
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+}
+
+.fw-bold{
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.card-title{
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.card-titleb{
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #ffff;
+}
+
+.imghistoria{
+    overflow: hidden;
+    border-radius: 40px;
+    box-shadow: 0 25px 50px rgba(0,0,0,0.18);
+    padding: 0;
+    margin: 20px auto;
+} 
+
+.mvi div{
+    border-radius: 40px;
+}
+
+.traba{
+     border: none;
+}
+
+.cont-img{
+    border-radius: 40px;
+    overflow: hidden;
+    position: relative;
+}
+
+.cont-img img{
+    object-fit: cover;
+    transition: transform .3s;
+    display: block;
+}
+
+.cont-img img:hover{
+    transform: scale(1.2);
+}
+
+@media(max-width: 900px){
+
+    .his{
+    margin-top: 20px;
+    padding: 20px;
+    }
+
+    .imghistoria{
+        justify-content: center;
+        margin: 0 auto;
+    }
+}
+
+/*Productos*/
+
+.productos {
+    padding: 80px 10%;
+    background: #f5f5f5;
+}
+
+.titulo-productos {
+    text-align: center;
+    margin-bottom: 40px;
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.titulo-productos h2 {
+    font-size: 40px;
+    color: #7A8466;
+    margin-bottom: 10px;
+}
+
+.titulo-productos p {
+    color: #555;
+    font-size: 18px;
+}
+
+.buscador {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.buscador input {
+    width: 350px;
+    padding: 12px;
+    border: 2px solid #7A8466;
+    border-radius: 10px;
+    outline: none;
+    font-size: 16px;
+}
+
+.contenedor-productos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+}
+
+.card-producto {
+    background: white;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: 0.3s;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.card-producto:hover {
+    transform: translateY(-10px);
+}
+
+.card-producto img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.card-producto h3 {
+    margin-top: 15px;
+    color: #7A8466;
+    font-size: 24px;
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.card-producto p {
+    padding: 10px 20px;
+    color: #666;
+}
+
+.card-producto span {
+    display: block;
+    margin: 15px 0;
+    font-size: 22px;
+    color: #7A8466;
+    font-weight: bold;
+}
+
+.productos button {
+    padding: 12px 25px;
+    border: none;
+    background: #7A8466;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.productos button:hover {
+    border: 1px solid #7A8466;
+}
+
+@media(max-width:768px){
+
+    .titulo-productos h2 {
+        font-size: 30px;
+    }
+
+    .buscador input {
+        width: 100%;
+    }
+
+}
+
+/*Contactos*/
+
+.card-info{
+    border-radius: 40px;
+    box-shadow: 0 -5px 1px #C76D4E;
+}
+
+.con h1{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.con p{
+    margin: 20px;
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.coi{
+    font-family: "DM Serif Display", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 17px;
+}
+
+.cor{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 10px;
+}

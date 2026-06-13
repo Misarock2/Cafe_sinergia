@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Café Sinergia</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="shortcut icon" href="imagenes/solologo-removebg-preview.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand logo align-items-center" href="index.html">
+                <img class="w-100 img-fluid me-2" src="./imagenes/LogoSinergia.png" alt="Bootstrap" 
+                width="20" height="20">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="productos.html">Producto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="cooworkig.html">Coworking</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="historia.html">Nuestra Historia</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contacto.html">Contacto</a>
+              </li>
+            </ul>
+            <button type="button" onclick="enviarAWhatsApp()" class="btn btn-icono d-flex"></button>
+          </div>
+        </div>
+      </nav>
+    </header>
+<!--Secccion historia-->
+
+      <section>
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-12 col-md-6 his">
+                    <h1 class="fw-bold">Café Sinergia</h1>
+                    <p>
+                      Fusionamos la tradición del café de especialidad con la innovación de un entorno digital. Somos un espacio híbrido diseñado para el profesional moderno: ofrecemos un ambiente confortable de coworking, herramientas digitales para facilitar tus pedidos y reservas. Aquí, cada taza de café es el motor de una nueva idea y cada rincón está pensado para tu desarrollo personal y profesional.
+                    </p>
+                </div>
+                <div class="col-10 col-md-6 d-flex imghistoria">
+                    <img src="imagenes/Cafe.jpg" alt="" class="img-fluid object-fit-cover w-100 h-100">
+                </div>
+            </div>
+        </div>
+    </section>
+<!--mision,vision-->
+<section>
+        <div class="container-fluid secci_servis">
+            <div class="row g-4 mvi">
+                 <h2>Misión, Visión y Valores</h2>
+                    <div class="d-flex justify-content-center">
+                         <hr class="mx-0 border-drak opacity-100" style="width: 80px;">
+                    </div>
+                <div class="col-12 col-md-12">
+                    <div class="card h-100" >
+                    <div class="card-body d-flex flex-column justify-content-center p-4">
+                        <h5 class="card-title">Misión</h5>
+                        <p class="card-text">Ofrecer una experiencia gastronómica excepcional centrada en el café de alta calidad, integrando un espacio físico confortable de coworking con herramientas digitales innovadoras. Nos dedicamos a fomentar la interacción social, la creatividad y el bienestar integral de nuestros usuarios, facilitando su día a día y enriqueciendo su entorno a través de la cultura, la tecnología y el sentido de comunidad.</p>
+                    </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-12">
+                    <div class="card h-100">
+                    <div class="card-body d-flex flex-column justify-content-center p-4">
+                        <h5 class="card-title">Visión</h5>
+                        <p class="card-text">Ser reconocidos como el modelo referente de café-working y espacio híbrido colaborativo, destacando por la perfecta sinergia entre la tradición del café de especialidad y la innovación digital. Aspiramos a consolidarnos como el principal punto de encuentro para profesionales, creativos y la comunidad en general, generando un impacto positivo a través de experiencias significativas y eventos que impulsen el desarrollo cultural y social.</p>
+                    </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="card car2">
+                    <div class="card-body d-flex flex-column justify-content-center p-4">
+                        <h5 class="card-titleb">​Sinergia (Colaboración)</h5>
+                        <p class="card-text">Creemos en el poder del esfuerzo conjunto y en la creación de espacios que conecten personas, ideas y proyectos.</p>                    
+                    </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="card car2">
+                    <div class="card-body d-flex flex-column justify-content-center p-4">
+                        <h5 class="card-titleb">Innovación Digital</h5>
+                        <p class="card-text">Abrazamos la tecnología como una herramienta para simplificar, optimizar y enriquecer la experiencia y el servicio a nuestros clientes.</p>                      
+                    </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="card car2">
+                    <div class="card-body d-flex flex-column justify-content-center p-4">
+                        <h5 class="card-titleb">​Calidad y Excelencia</h5>
+                        <p class="card-text">Nos comprometemos con los más altos estándares, desde la selección de nuestro café de especialidad hasta la atención personalizada y el diseño de nuestros espacios.</p>                       
+                    </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="card car2">
+                    <div class="card-body d-flex flex-column justify-content-center p-4">
+                        <h5 class="card-titleb">​Bienestar e Integridad</h5>
+                        <p class="card-text">Nos preocupamos por el equilibrio de nuestra comunidad, ofreciendo un ambiente cómodo que inspire tranquilidad, enfoque y esparcimiento.</p>
+                    </div>
+                    </div>
+                </div>
+                 <div class="col-12 col-md-4">
+                    <div class="card car2">
+                    <div class="card-body d-flex flex-column justify-content-center p-4">
+                        <h5 class="card-titleb">​Sentido de Comunidad</h5>
+                        <p class="card-text">Promovemos el intercambio cultural, artístico y formativo para tejer redes humanas sólidas y aportar valor al entorno local.</p>
+                    </div>
+                    </div>
+                </div>
+            </div>
+         </div>
+</section>
+<!--trabajadores-->
+<section>
+    <div class="container-fluid">
+        <div class="row g-4">
+            <h1></h1>
+            <div class="col-12 col-lg-3">
+                <div class="card traba">
+                <div class="cont-img">
+                <img src="imagenes/foto1.png" class="card-img-top" alt="...">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Elena Martínez</h5>
+                    <p class="card-text">Visión estrategica</p>
+                </div>
+                </div>
+
+            </div>
+            <div class="col-12 col-lg-3">
+                <div class="card traba">
+                <div class="cont-img">
+                <img src="imagenes/foto2.png" class="card-img-top" alt="...">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Javier Ruiz</h5>
+                    <p class="card-text">Barista Lead</p>
+                </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-3">
+                <div class="card traba">
+                <div class="cont-img">
+                <img src="imagenes/foto3.png" class="card-img-top" alt="...">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Sofía Castro</h5>
+                    <p class="card-text">Nexo Comunitario</p>
+                </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-3">
+                <div class="card traba">
+                <div class="cont-img">
+                <img src="imagenes/foto4.png" class="card-img-top" alt="...">
+                </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Ricardo Gómez</h5>
+                        <p class="card-text">Gestión de Espacios</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--reserva-->
+<section class="secci-reserva">
+    <div class="container-fluid">
+         <div class="row g-4">
+            <div class="col-12">
+                <div class="card text-center card-reserva">
+                    <div class="card-body">
+                        <h5 class="card-title">Reserva tu espacio o pide tu café en segundos</h5>
+                        <p class="card-text">Lleva tu productividad al siguiente nivel en el mejor ambiente de la ciudad.</p>
+                          <a href="cooworkig.html#planes" class="btn btn-suc1">Ver Coworking</a>
+                        <a href="javascript:void(0)" onclick="enviarAWhatsApp()"class="btn btn-suc2">Pedir por Whatsapp</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+<!--pie-->
+</section>
+
+   <footer class="main-footer">
+    <div class="footer-container container">
+        <div class="row">  
+
+            <div class="col-lg-4 footer-col">
+                <div class="d-flex align-items-center mb-2">
+                <img src="imagenes/solologo-removebg-preview.png" alt="" class="footlogo m2" >
+                <h3 class="m-0">Café Sinergia</h3>
+                </div>
+                <p>Donde cada taza de café impulsa una nueva idea sostenible.</p>
+            </div>
+            
+        
+            <div class="col-lg-4 footer-col">
+                <h4>REDES SOCIALES</h4>
+                <div class="d-flex">
+                    <a href="https://m.facebook.com/" target="_blank" rel="noopener noreferrer"><i class="bi bi-facebook m-4 fs-3"></i></a>
+                    <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer"><i class="bi bi-instagram m-4 fs-3"></i></a>
+                </div>
+            </div>
+
+            
+            <div class="col-lg-4 footer-col">
+
+                <h4>UBICACIÓN & HORARIOS</h4>               
+                <p>Horarios de Atención: <br> Lunes a Viernes: 8:00 AM - 7:00 PM <br> Sabados: 9:00 AM - 6:00 PM</p>
+                <p>Dirección: Calle 14 #6N-49, Barrio Granada</p>
+                
+                <p><a href="https://maps.app.goo.gl/3j8rbwux1upGRh9n6" class="map-link" target="_blank" rel="noopener noreferrer">Ver en Google Maps</a></p>
+            </div>
+               
+    
+            <div class="col-lg-12 footer-bottom text-center">
+                <p>&copy; 2026 Café Sinergia. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+<script src="js/control.js"></script> 
+</body>
+</html>
